@@ -1,0 +1,8 @@
+# Runtime/install artifacts — the Xandria customization is composer.json only
+vendor/
+data/
+upload/
+public/
+composer.lock
+console.php
+LICENSE.txt

@@ -2,8 +2,16 @@
   "name": "atrocore/skeleton-pim",
   "description": "Skeleton for AtroPIM",
   "homepage": "https://atropim.com",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.atrocore.com/packages.json?id=common"
+    }
+  ],
   "require": {
+    "caxy/php-htmldiff": "^0.1.14",
     "atrocore/core": ">=2.2.30",
     "atrocore/pim": "*",
     "atrocore/export": "*",
